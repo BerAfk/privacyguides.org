@@ -16,14 +16,15 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     For Linux users, a third party graphical tool [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) powered by MAT2 exists and is [available on Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
 
-    [Visit 0xacab.org](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+    [Homepage](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
-    - [:fontawesome-brands-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
-    - [:fontawesome-brands-linux: Linux](https://pypi.org/project/mat2)
-    - [:fontawesome-solid-earth-americas: Web](https://0xacab.org/jvoisin/mat2#web-interface)
-    - [:fontawesome-brands-gitlab: Source](https://0xacab.org/jvoisin/mat2)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
+        - [:fontawesome-brands-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
+        - [:fontawesome-brands-linux: Linux](https://pypi.org/project/mat2)
+        - [:fontawesome-solid-earth-americas: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+        - [:fontawesome-brands-gitlab: Source](https://0xacab.org/jvoisin/mat2)
 
 ### ExifCleaner
 
@@ -33,13 +34,14 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **ExifCleaner** is a freeware, open source graphical app that uses [ExifTool](https://exiftool.org) to remove Exif metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
 
-    [Visit exifcleaner.com](https://exifcleaner.com){ .md-button .md-button--primary }
+    [Homepage](https://exifcleaner.com){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
-    - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
-    - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
-    - [:fontawesome-brands-github: Source](https://github.com/szTheory/exifcleaner)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
+        - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
+        - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
+        - [:fontawesome-brands-github: Source](https://github.com/szTheory/exifcleaner)
 
 ## Mobile
 
@@ -51,18 +53,15 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **Scrambled Exif** is a metadata removal tool for Android. It can remove Exif data for many file formats and has been translated into [many](https://gitlab.com/juanitobananas/scrambled-exif/-/tree/master/app/src/main/res) languages.
 
-    [Visit gitlab.com](https://gitlab.com/juanitobananas/scrambled-exif){ .md-button .md-button--primary }
+    [Project Info](https://gitlab.com/juanitobananas/scrambled-exif#scrambled-exif){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif)
-    - [:fontawesome-brands-gitlab: Source](https://gitlab.com/juanitobananas/scrambled-exif)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif)
+        - [:fontawesome-brands-gitlab: Source](https://gitlab.com/juanitobananas/scrambled-exif)
 
 ### Imagepipe
-
-!!! info
-
-    Imagepipe is only available from F-Droid and not in Google Play. If you're looking for a paint app in Google Play we suggest [Pocket Paint](https://play.google.com/store/apps/details?id=org.catrobat.paintroid).
 
 !!! recommendation
 
@@ -70,11 +69,14 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **Imagepipe** is a a paint app for Android that can be used to redact photos and also delete Exif metadata. It has been translated into [many](https://codeberg.org/Starfish/Imagepipe#translations) languages.
 
-    [Visit codeberg.org](https://codeberg.org/Starfish/Imagepipe){ .md-button .md-button--primary }
+    [Project Info](https://codeberg.org/Starfish/Imagepipe#imagepipe){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/)
-    - [:fontawesome-brands-git: Source](https://codeberg.org/Starfish/Imagepipe)
+    ??? downloads
+
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/)
+        - [:fontawesome-brands-git: Source](https://codeberg.org/Starfish/Imagepipe)
+
+Imagepipe is only available from F-Droid and not in Google Play. If you're looking for a paint app in Google Play we suggest [Pocket Paint](https://play.google.com/store/apps/details?id=org.catrobat.paintroid).
 
 ### Metapho
 
@@ -88,10 +90,11 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     Metapho is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
 
-    [Visit zininworks.com](https://zininworks.com/metapho){ .md-button .md-button--primary } [Privacy Policy](https://zininworks.com/privacy/){ .md-button }
+    [Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary } [Privacy Policy](https://zininworks.com/privacy/){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+    ??? downloads
+
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
 ## Command-line
 
@@ -105,19 +108,21 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     It's often a component of other Exif removal applications and is in most Linux distribution repositories.
 
-    [Visit exiftool.org](https://exiftool.org){ .md-button .md-button--primary }
+    [Homepage](https://exiftool.org){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://exiftool.org)
-    - [:fontawesome-brands-apple: macOS](https://exiftool.org)
-    - [:fontawesome-brands-linux: Linux](https://exiftool.org)
-    - [:fontawesome-brands-git: Source](https://sourceforge.net/projects/exiftool)
-    - [:fontawesome-brands-github: Source](https://github.com/exiftool/exiftool)
+    ??? downloads
 
-To delete data from a directory of files:
+        - [:fontawesome-brands-windows: Windows](https://exiftool.org)
+        - [:fontawesome-brands-apple: macOS](https://exiftool.org)
+        - [:fontawesome-brands-linux: Linux](https://exiftool.org)
+        - [:fontawesome-brands-git: Source](https://sourceforge.net/projects/exiftool)
+        - [:fontawesome-brands-github: Source](https://github.com/exiftool/exiftool)
 
-```bash
-exiftool -all= *.file_extension
-```
+
+!!! example "Deleting data from a directory of files"
+
+    ```bash
+    exiftool -all= *.file_extension
+    ```
 
 --8<-- "includes/abbreviations.en.md"

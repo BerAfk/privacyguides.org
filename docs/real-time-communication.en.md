@@ -14,15 +14,16 @@ icon: material/chat-processing
 
     All communications are E2EE. Contact lists are encrypted using your login PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts who add you.
 
-    [Visit signal.org](https://signal.org/){ .md-button .md-button--primary }
+    [Homepage](https://signal.org/){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://signal.org/download)
-    - [:fontawesome-brands-apple: macOS](https://signal.org/download)
-    - [:fontawesome-brands-linux: Linux](https://signal.org/download)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id874139669)
-    - [:fontawesome-brands-github: Source](https://github.com/signalapp)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://signal.org/download)
+        - [:fontawesome-brands-apple: macOS](https://signal.org/download)
+        - [:fontawesome-brands-linux: Linux](https://signal.org/download)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id874139669)
+        - [:fontawesome-brands-github: Source](https://github.com/signalapp)
 
 Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender/) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server.
 
@@ -42,16 +43,17 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
     Messages and files shared in private rooms (those which require an invite) are by default E2EE as are 1 to 1 voice and video calls.
 
-    [Visit element.io](https://element.io/){ .md-button .md-button--primary }
+    [Website](https://element.io/){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://element.io/get-started)
-    - [:fontawesome-brands-apple: macOS](https://element.io/get-started)
-    - [:fontawesome-brands-linux: Linux](https://element.io/get-started)
-    - [:fontawesome-brands-android: Android](https://f-droid.org/packages/im.vector.app/)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/vector/id1083446067)
-    - [:fontawesome-brands-github: Source](https://github.com/vector-im/element-web)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://element.io/get-started)
+        - [:fontawesome-brands-apple: macOS](https://element.io/get-started)
+        - [:fontawesome-brands-linux: Linux](https://element.io/get-started)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/im.vector.app/)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/vector/id1083446067)
+        - [:fontawesome-brands-github: Source](https://github.com/vector-im/element-web)
 
 Profile pictures, reactions, and nicknames are not encrypted.
 
@@ -69,12 +71,13 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
     **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works/) to other clients using the Tor Network. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
-    [Visit briarproject.org](https://briarproject.org/){ .md-button .md-button--primary }
+    [Homepage](https://briarproject.org/){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-android: Android](https://f-droid.org/packages/org.briarproject.briar.android)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-    - [:fontawesome-brands-git: Source](https://code.briarproject.org/briar/briar)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.briarproject.briar.android)
+        - [:fontawesome-brands-git: Source](https://code.briarproject.org/briar/briar)
 
 To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
 
@@ -92,17 +95,18 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
     **Session** is an encrypted instant messenger that uses three random [service nodes](https://getsession.org/blog/onion-requests-session-new-message-routing-solution) to route messages anonymously on the [Oxen Network](https://oxen.io).
 
-    [Visit getsession.org](https://getsession.org/){ .md-button .md-button--primary }
+    [Homepage](https://getsession.org/){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://getsession.org/windows)
-    - [:fontawesome-brands-apple: macOS](https://getsession.org/mac)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1470168868)
-    - [:fontawesome-brands-linux: Linux](https://www.getsession.org/linux)
-    - [:fontawesome-brands-android: Android](https://fdroid.getsession.org/)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
-    - [:pg-f-droid: F-Droid](https://fdroid.getsession.org)
-    - [:fontawesome-brands-github: Source](https://github.com/oxen-io/session-desktop)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://getsession.org/windows)
+        - [:fontawesome-brands-apple: macOS](https://getsession.org/mac)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1470168868)
+        - [:fontawesome-brands-linux: Linux](https://www.getsession.org/linux)
+        - [:fontawesome-brands-android: Android](https://fdroid.getsession.org/)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
+        - [:pg-f-droid: F-Droid](https://fdroid.getsession.org)
+        - [:fontawesome-brands-github: Source](https://github.com/oxen-io/session-desktop)
 
 Session allows for E2EE in one-to-one or closed rooms that allow up to 100 members. Open rooms have no restriction on the number of members, but anyone can join.
 

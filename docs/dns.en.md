@@ -85,12 +85,13 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](te
 
     **RethinkDNS** is an open-source Android client supporting [DNS-over-HTTPS](technology/dns.md#dns-over-https-doh), [DNS-over-TLS](technology/dns.md#dns-over-tls-dot), [DNSCrypt](technology/dns.md#dnscrypt) and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.
 
-    [Visit rethinkdns.com](https://rethinkdns.com){ .md-button .md-button--primary } [Privacy Policy](https://rethinkdns.com/privacy){ .md-button }
+    [Website](https://rethinkdns.com){ .md-button .md-button--primary } [Privacy Policy](https://rethinkdns.com/privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.celzero.bravedns)
-    - [:fontawesome-brands-github: Source](https://github.com/celzero/rethink-app)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.celzero.bravedns)
+        - [:fontawesome-brands-github: Source](https://github.com/celzero/rethink-app)
 
 ### DNSCloak
 
@@ -100,11 +101,12 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](te
 
     **DNSCloak** is an open-source iOS client supporting [DNS-over-HTTPS](technology/dns.md#dns-over-https-doh), [DNSCrypt](technology/dns.md#dnscrypt), and [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy/wiki) options such as caching DNS responses, locally logging DNS queries, and custom block lists. Users can [add custom resolvers by DNS stamp](https://medium.com/privacyguides/adding-custom-dns-over-https-resolvers-to-dnscloak-20ff5845f4b5).
 
-    [Visit github.com](https://github.com/s-s/dnscloak/blob/master/README.md){ .md-button .md-button--primary } [Privacy Policy](https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view){ .md-button }
+    [Project Info](https://github.com/s-s/dnscloak/blob/master/README.md){ .md-button .md-button--primary } [Privacy Policy](https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1452162351)
-    - [:fontawesome-brands-github: Source](https://github.com/s-s/dnscloak)
+    ??? downloads
+
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1452162351)
+        - [:fontawesome-brands-github: Source](https://github.com/s-s/dnscloak)
 
 ### dnscrypt-proxy
 
@@ -114,11 +116,12 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](te
 
     **dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](technology/dns.md#dnscrypt), [DNS-over-HTTPS](technology/dns.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
-    [Visit github.com](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
+    !!! warning "The anonymized DNS feature does [**not**](technology/dns.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
 
-    **Downloads**
-    - [:fontawesome-brands-github: Source](https://github.com/DNSCrypt/dnscrypt-proxy)
+    [Wiki](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
 
-!!! warning "The anonymized DNS feature does [**not**](technology/dns.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/DNSCrypt/dnscrypt-proxy)
 
 --8<-- "includes/abbreviations.en.md"

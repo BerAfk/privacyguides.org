@@ -104,6 +104,7 @@ markdown_extensions:
   - footnotes
   - toc:
       permalink: true
+      toc_depth: 4
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -118,7 +119,6 @@ nav:
       - 'technology/payments.md'
     - 'Android':
       - 'android/overview.md'
-      - 'android/security.md'
       - 'android/grapheneos-vs-calyxos.md'
     - 'Linux':
       - 'linux-desktop/overview.md'

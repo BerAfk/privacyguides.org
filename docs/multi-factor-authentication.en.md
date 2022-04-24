@@ -14,7 +14,7 @@ icon: 'material/two-factor-authentication'
 
     One of the benefits of the YubiKey is that one key can do almost everything (YubiKey 5), you could expect from a hardware security key. We do encourage you to take the [quiz](https://www.yubico.com/quiz/) before purchasing in order to make sure you make the right choice.
 
-    [Visit yubico.com](https://www.yubico.com){ .md-button .md-button--primary } [Privacy Policy](https://www.yubico.com/support/terms-conditions/privacy-notice){ .md-button }
+    [Website](https://www.yubico.com){ .md-button .md-button--primary } [Privacy Policy](https://www.yubico.com/support/terms-conditions/privacy-notice){ .md-button }
 
 The [comparison table](https://www.yubico.com/store/compare/) shows the features and how the YubiKeys compare. We highly recommend that you select keys from the YubiKey 5 Series.
 
@@ -33,7 +33,7 @@ For models which support HOTP and TOTP, there are 2 slots in the OTP interface w
 
     **Nitrokey** has a security key capable of [FIDO2 and WebAuthn](security/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
 
-    [Visit nitrokey.com](https://www.nitrokey.com){ .md-button .md-button--primary } [Privacy Policy](https://www.nitrokey.com/data-privacy-policy){ .md-button }
+    [Website](https://www.nitrokey.com){ .md-button .md-button--primary } [Privacy Policy](https://www.nitrokey.com/data-privacy-policy){ .md-button }
 
 The [comparison table](https://www.nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. The **Nitrokey 3** listed will have a combined feature set.
 
@@ -41,17 +41,17 @@ Nitrokey models can be configured using the [Nitrokey app](https://www.nitrokey.
 
 For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 for TOTP. Some Nitrokeys can act as a password manager. They can store 16 different credentials and encrypt them using the same password as the OpenPGP interface.
 
- The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware. Purism's [Librem Key](https://puri.sm/products/librem-key/) is a rebranded NitroKey Pro 2 with similar firmware and can also be used for the same purposes.
-
- The Nitrokey has an open source firmware, unlike the YubiKey. The firmware on modern NitroKey models (except the **NitroKey Pro 2**) is updatable.
-
 !!! warning
 
     While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plugged into, the HOTP and TOTP storage is **not** encrypted and is vulnerable to physical attacks.
 
-!!! attention
+!!! warning
 
     Resetting the OpenPGP interface on a Nitrokey will also make the password database [inaccessible](https://docs.nitrokey.com/pro/factory-reset.html).
+
+ The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware. Purism's [Librem Key](https://puri.sm/products/librem-key/) is a rebranded NitroKey Pro 2 with similar firmware and can also be used for the same purposes.
+
+ The Nitrokey has an open source firmware, unlike the YubiKey. The firmware on modern NitroKey models (except the **NitroKey Pro 2**) is updatable.
 
 !!! tip
 
@@ -71,12 +71,13 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
     **Aegis Authenticator** is a free, secure and open source app to manage your 2-step verification tokens for your online services.
 
-    [Visit getaegis.app](https://getaegis.app){ .md-button .md-button--primary } [Privacy Policy](https://getaegis.app/aegis/privacy.html){ .md-button }
+    [Homepage](https://getaegis.app){ .md-button .md-button--primary } [Privacy Policy](https://getaegis.app/aegis/privacy.html){ .md-button }
 
-    **Downloads:**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis)
-    - [:fontawesome-brands-github: GitHub](https://github.com/beemdevelopment/Aegis)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis)
+        - [:fontawesome-brands-github: GitHub](https://github.com/beemdevelopment/Aegis)
 
 ### Raivo OTP
 
@@ -86,11 +87,12 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
     **Raivo OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client for iOS. Raivo OTP offers optional iCloud backup & sync. Raivo OTP is also available for macOS in the form of a status bar application, however the Mac app does not work independently of the iOS app.
 
-    [Visit github.com](https://github.com/raivo-otp/ios-application){ .md-button .md-button--primary } [Privacy Policy](https://github.com/raivo-otp/ios-application/blob/master/PRIVACY.md){ .md-button }
+    [Project Info](https://github.com/raivo-otp/ios-application#readme){ .md-button .md-button--primary } [Privacy Policy](https://github.com/raivo-otp/ios-application/blob/master/PRIVACY.md){ .md-button }
 
-    **Downloads:**
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
-    - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/us/app/raivo-otp/id1498497896)
-    - [:fontawesome-brands-github: GitHub](https://github.com/raivo-otp/ios-application)
+    ??? downloads
+
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
+        - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/us/app/raivo-otp/id1498497896)
+        - [:fontawesome-brands-github: GitHub](https://github.com/raivo-otp/ios-application)
 
 --8<-- "includes/abbreviations.en.md"

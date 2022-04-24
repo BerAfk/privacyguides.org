@@ -18,9 +18,9 @@ If you don't already use Linux, below are some distributions we suggest trying o
 
     **Fedora Workstation** is our recommended distribution for users new to Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), and soon, [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). These new technologies often come with improvements in security, privacy, and usability in general.
 
-    [Visit getfedora.org](https://getfedora.org/){ .md-button .md-button--primary }
+    [Homepage](https://getfedora.org/){ .md-button .md-button--primary }
 
-Fedora has a semi-[rolling release](https://en.wikipedia.org/wiki/Rolling_release) cycle. While some packages like [GNOME](https://www.gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
+Fedora has a semi-rolling release cycle. While some packages like [GNOME](https://www.gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
 
 ### openSUSE Tumbleweed
 
@@ -28,11 +28,11 @@ Fedora has a semi-[rolling release](https://en.wikipedia.org/wiki/Rolling_releas
 
     ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
 
-    **openSUSE Tumbleweed** is a stable [rolling release](https://en.wikipedia.org/wiki/Rolling_release) distribution.
+    **openSUSE Tumbleweed** is a stable rolling release distribution.
 
     openSUSE Tumbleweed has a [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) system that uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
 
-    [Visit get.opensuse.org](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
+    [Homepage](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
 
 Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. When the user upgrades their system, a new snapshot is downloaded. Each snapshot is run through a series of automated tests by [openQA](https://openqa.opensuse.org) to ensure its quality.
 
@@ -44,11 +44,11 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
     **Arch Linux** is a lightweight, do-it-yourself (DIY) distribution meaning that you only get what you install. For more information see their [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
-    [Visit archlinux.org](https://archlinux.org/){ .md-button .md-button--primary }
+    [Homepage](https://archlinux.org/){ .md-button .md-button--primary }
 
 Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
 
-Being a DIY distribution, the user is [expected to setup and maintain](#arch-based-distributions) their system. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
+Being a DIY distribution, the user is [expected to set up and maintain](#arch-based-distributions) their system. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
 
 A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org).
 
@@ -62,7 +62,7 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
 
     **Fedora Silverblue** and **Fedora Kinoite** are immutable variants of Fedora with a strong focus on container workflows. Silverblue comes with the [GNOME](https://www.gnome.org/) desktop environment while Kinoite comes with [KDE](https://kde.org/). Silverblue and Kinoite follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
-    [Visit silverblue.fedoraproject.org](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
+    [Homepage](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
 
 Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://fedoraproject.org/wiki/DNF) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 
@@ -80,7 +80,7 @@ As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fed
 
     NixOS is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
 
-    [Visit nixos.org](https://nixos.org/){ .md-button .md-button--primary }
+    [Homepage](https://nixos.org/){ .md-button .md-button--primary }
 
 NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
 
@@ -102,7 +102,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
     **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet.
 
-    [Visit whonix.org](https://www.whonix.org/){ .md-button .md-button--primary }
+    [Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
 
 Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway”. All communications from the Workstation has to go through the Tor gateway, and will be routed through the Tor Network.
 
@@ -122,7 +122,7 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
     It can boot on almost any computer from a DVD, USB stick, or SD card. It aims to preserve privacy and anonymity while circumventing censorship and leaving no trace of itself on the computer it is used on.
 
-    [Visit tails.boum.org](https://tails.boum.org/){ .md-button .md-button--primary }
+    [Homepage](https://tails.boum.org/){ .md-button .md-button--primary }
 
 By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/first_steps/persistence/index.en.html) can be configured to store some data.
 
@@ -130,15 +130,15 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 ### Drive Encryption
 
-Most Linux distributions have an installer option for enabling [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) FDE upon installation.
+Most Linux distributions have an installer option for enabling LUKS FDE upon installation.
 
-If this option isn’t set at installation time, the user will have to backup their data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning) but before [file systems](https://en.wikipedia.org/wiki/File_system) are [formatted](https://en.wikipedia.org/wiki/Disk_formatting).
+If this option isn’t set at installation time, the user will have to backup their data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted.
 
-When securely erasing storage devices such as a [Solid-state drive (SSD)](https://en.wikipedia.org/wiki/Solid-state_drive) you should use the [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) command. This command can be issued from your UEFI setup. If the storage device is a regular [hard drive](https://en.wikipedia.org/wiki/Hard_disk_drive), consider using [`nwipe`](https://en.wikipedia.org/wiki/Nwipe).
+When securely erasing storage devices such as a Solid-state drive (SSD) you should use the [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) command. This command can be issued from your UEFI setup. If the storage device is a regular hard drive (HDD), consider using [`nwipe`](https://en.wikipedia.org/wiki/Nwipe).
 
 ### Swap
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Fedora based distributions [use ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM) by default.
+Consider using [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Fedora based distributions [use ZRAM by default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
 ### Wayland
 
@@ -170,11 +170,11 @@ There isn’t much point in randomizing the MAC address for Ethernet connections
 
 ### Other Identifiers
 
-There are other system [identifiers](https://madaidans-insecurities.github.io/guides/linux-hardening.html#identifiers) which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](threat-modeling.md):
+There are other system identifiers which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](threat-modeling.md):
 
-- [10.1 Hostnames and usernames](https://madaidans-insecurities.github.io/guides/linux-hardening.html#hostnames)
-- [10.2 Time zones / Locales / Keymaps](https://madaidans-insecurities.github.io/guides/linux-hardening.html#timezones-locales-keymaps)
-- [10.3 Machine ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id)
+- **Hostnames:** Your system's hostname is shared with the networks you connect to. You should avoid including identifying terms like your name or operating system in your hostname, instead sticking to generic terms or random strings.
+- **Usernames:** Similarly, your username is used in a variety of ways across your system. Consider using generic terms like "user" rather than your actual name.
+- **Machine ID:**: During installation a unique machine ID is generated and stored on your device. Consider [setting it to a generic ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### System Counting
 
@@ -183,3 +183,5 @@ The Fedora Project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Co
 This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) is currently off by default. We recommend adding `countme=false` to `/etc/dnf/dnf.conf` just in case it is enabled in the future. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) timer.
 
 openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by deleting the `/var/lib/zypp/AnonymousUniqueId` file.
+
+--8<-- "includes/abbreviations.en.md"

@@ -170,7 +170,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
     If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
 
-    If you're looking for added **security**, you should always ensure you're connecting to websites using [HTTPS](https://en.wikipedia.org/wiki/HTTPS). A VPN is not a replacement for good security practices.
+    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 
     [Learn more :material-arrow-right:](vpn.md)
 
@@ -206,6 +206,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](https://joplinapp.org/)
 - ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](https://standardnotes.org/)
+- ![EteSync Notes logo](assets/img/notebooks/etesync-notes.png){ .twemoji } [EteSync Notes](https://www.etesync.com/)
+- ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](https://orgmode.org/)
 
 </div>
 

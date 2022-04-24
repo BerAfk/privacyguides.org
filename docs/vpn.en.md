@@ -11,11 +11,11 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
 
-    If you're looking for added **security**, you should always ensure you're connecting to websites using [HTTPS](https://en.wikipedia.org/wiki/HTTPS). A VPN is not a replacement for good security practices.
+    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 
     [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](https://medium.com/privacyguides/slicing-onions-part-1-myth-busting-tor-9ec188ae1904){ .md-button }
 
-??? info "When are VPNs useful?"
+??? question "When are VPNs useful?"
 
     If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved.
 
@@ -23,7 +23,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ## Recommended Providers
 
-!!! example "Criteria"
+!!! summary "Criteria"
 
     Our recommended providers are outside the US, use encryption, accept Monero, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#our-criteria) for more information.
 
@@ -38,7 +38,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **EUR €60/year**
 
-    [Visit Mullvad.net](https://mullvad.net){ .md-button .md-button--primary }
+    [Website](https://mullvad.net){ .md-button .md-button--primary } [:pg-tor:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .md-button }
 
 ??? check "35 Countries"
 
@@ -98,7 +98,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **Free** - **Basic Plan USD $48/year** - **Plus Plan USD $96/year**
 
-    [Visit ProtonVPN.com](https://protonvpn.com/){ .md-button .md-button--primary }
+    [Website](https://protonvpn.com/){ .md-button .md-button--primary }
 
 ??? check "44 Countries"
 
@@ -146,7 +146,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **Standard USD $60/year** - **Pro USD $100/year**
 
-    [Visit IVPN.net](https://www.ivpn.net/){ .md-button .md-button--primary }
+    [Website](https://www.ivpn.net/){ .md-button .md-button--primary }
 
 ??? check "32 Countries"
 

@@ -8,32 +8,29 @@ The primary threat when using a video streaming platform is that your streaming 
 
 ### FreeTube
 
-!!! Warning
-
-    When using FreeTube, your IP address is still known to YouTube, [Invidious](https://instances.invidious.io) and the SponsorBlock instances that you use. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](threat-modeling.md) requires hiding your IP address.
-
 !!! recommendation
 
     ![FreeTube logo](assets/img/video-streaming/freetube.svg){ align=right }
 
     **FreeTube** is a free and open source desktop application for [YouTube](https://youtube.com). When using FreeTube, your subscription list and playlists are saved locally on your device.
 
-    FreeTube also features [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored advertisements. All YouTube advertisements are also blocked by default.
+    By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
-    [Visit freetubeapp.io](https://freetubeapp.io){ .md-button .md-button--primary } [Privacy Policy](https://freetubeapp.io/privacy.php){ .md-button }
+    [Homepage](https://freetubeapp.io){ .md-button .md-button--primary } [Privacy Policy](https://freetubeapp.io/privacy.php){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
-    - [:fontawesome-brands-apple: macOS](https://freetubeapp.io/#download)
-    - [:fontawesome-brands-linux: Linux](https://freetubeapp.io/#download)
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
-    - [:fontawesome-brands-github: Source](https://github.com/FreeTubeApp/FreeTube/)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
+        - [:fontawesome-brands-apple: macOS](https://freetubeapp.io/#download)
+        - [:fontawesome-brands-linux: Linux](https://freetubeapp.io/#download)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
+        - [:fontawesome-brands-github: Source](https://github.com/FreeTubeApp/FreeTube/)
+
+!!! Warning
+
+    When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](threat-modeling.md) requires hiding your IP address.
 
 ### LBRY
-
-!!! note
-
-    Only the **LBRY desktop client** is recommended. The [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the AppStore have mandatory synchronization and telemetry.
 
 !!! recommendation
 
@@ -43,13 +40,18 @@ The primary threat when using a video streaming platform is that your streaming 
 
     **The LBRY desktop client** helps you stream videos from the LBRY network and stores your subscription list in your own LBRY wallet.
 
-    [Visit lbry.com](https://lbry.com){ .md-button .md-button--primary } [Privacy Policy](https://lbry.com/privacypolicy){ .md-button }
+    [Website](https://lbry.com){ .md-button .md-button--primary } [Privacy Policy](https://lbry.com/privacypolicy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://lbry.com/get)
-    - [:fontawesome-brands-apple: macOS](https://lbry.com/osx)
-    - [:fontawesome-brands-linux: Linux](https://lbry.com/linux)
-    - [:fontawesome-brands-github: Source](https://github.com/lbryio)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://lbry.com/get)
+        - [:fontawesome-brands-apple: macOS](https://lbry.com/osx)
+        - [:fontawesome-brands-linux: Linux](https://lbry.com/linux)
+        - [:fontawesome-brands-github: Source](https://github.com/lbryio)
+
+!!! note
+
+    Only the **LBRY desktop client** is recommended, as the [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the App Store have mandatory synchronization and telemetry.
 
 !!! warning
 
@@ -57,7 +59,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 We recommend **against** synchronizing your wallet with LBRY Inc., as synchronizing encrypted wallets is not supported yet. If you synchronize your wallet with LBRY Inc., you have to trust them to not look at your subscription list, [LBC](https://lbry.com/faq/earn-credits) funds, or take control of your channel.
 
-You can  disable *Save hosting data to help the LBRY network* option (⚙️ Settings → Advanced Settings) to avoid exposing your IP address and watched videos when using LBRY for a prolonged period of time.
+You can disable *Save hosting data to help the LBRY network* option in :gear: **Settings** → **Advanced Settings**, to avoid exposing your IP address and watched videos when using LBRY for a prolonged period of time.
 
 ### NewPipe
 
@@ -69,11 +71,12 @@ You can  disable *Save hosting data to help the LBRY network* option (⚙️ Set
 
     Your subscription list and playlists are saved locally on your Android device.
 
-    [Visit newpipe.net](https://newpipe.net){ .md-button .md-button--primary } [Privacy Policy](https://newpipe.net/legal/privacy){ .md-button }
+    [Homepage](https://newpipe.net){ .md-button .md-button--primary } [Privacy Policy](https://newpipe.net/legal/privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-android: F-Droid repo](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo)
-    - [:fontawesome-brands-github: Source](https://github.com/TeamNewPipe/NewPipe)
+    ??? downloads
+
+        - [:fontawesome-brands-android: F-Droid repo](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo)
+        - [:fontawesome-brands-github: Source](https://github.com/TeamNewPipe/NewPipe)
 
 !!! note
 
@@ -81,7 +84,7 @@ You can  disable *Save hosting data to help the LBRY network* option (⚙️ Set
 
 #### SponsorBlock
 
-*NewPipe x SponsorBlock* is a fork of [NewPipe](https://newpipe.net) with [SponsorBlock](https://sponsor.ajay.app) integrated to help you skip sponsored advertisements.
+*NewPipe x SponsorBlock* is a fork of [NewPipe](https://newpipe.net) with [SponsorBlock](https://sponsor.ajay.app) integrated to help you skip sponsored video segments.
 
 It also has integration with [Return YouTube Dislike](https://returnyoutubedislike.com), and some experimental settings such as the ability to use the built-in player for local playback, an option to force fullscreen on landscape mode, and an option to disable error reporting prompts.
 
@@ -93,10 +96,6 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
 ### Invidious
 
-!!! warning
-
-    Invidious does not proxy the video stream through its server by default. Videos watched through Invidious will still make direct connections to Google's servers (googlevideo.com); however, some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
-
 !!! recommendation
 
     ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ align=right }
@@ -104,11 +103,16 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
     **Invidious** is a free and open source front end for YouTube that is also self-hostable. There are list of [public instances](https://instances.invidious.io). Some instances have [Tor](https://www.torproject.org) onion services support.
 
-    [Visit invidious.io](https://invidious.io){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
+    [Website](https://invidious.io){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-solid-earth-americas: Instances](https://instances.invidious.io)
-    - [:fontawesome-brands-github: Source](https://github.com/iv-org/invidious)
+    ??? downloads
+
+        - [:fontawesome-solid-earth-americas: Instances](https://instances.invidious.io)
+        - [:fontawesome-brands-github: Source](https://github.com/iv-org/invidious)
+
+!!! warning
+
+    Invidious does not proxy the video stream through its server by default. Videos watched through Invidious will still make direct connections to Google's servers (googlevideo.com); however, some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
 
 !!! tip
 
@@ -128,10 +132,11 @@ When you are using an Invidious instance, be sure to go read the Privacy Policy 
 
     Piped requires JavaScript in order to function.
 
-    [Visit piped.kavin.rocks](https://piped.kavin.rocks/){ .md-button .md-button--primary }
+    [Website](https://piped.kavin.rocks/){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-github: Source](https://github.com/TeamPiped/Piped)
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/TeamPiped/Piped)
 
 !!! tip
 
